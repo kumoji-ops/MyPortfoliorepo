@@ -3,7 +3,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding-top: 70px;
+    padding-top: 85px;
     background-color: rgb(71, 17, 4);
     scroll-behavior: smooth;
 }
@@ -115,6 +115,10 @@ body {
 }
 .intro .btn2:active {
   transform: translateY(0); /* 🔹 pushes button back down when clicked */
+}
+#projects,
+#contact {
+    scroll-margin-top: 100px;
 }
 
 .projects {
@@ -520,3 +524,18 @@ body {
     margin-left: 500px;
     margin-top: 20px;
 }
+.ContactMe .Emailtitle{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.ContactMe .Email{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
