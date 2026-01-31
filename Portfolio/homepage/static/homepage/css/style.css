@@ -528,28 +528,61 @@ body {
     margin-left: 500px;
     margin-top: 20px;
 }
-.ContactMe .i{
-    margin-left: 500px;
-    margin-top: 20px;
+.contactrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    overflow: visible;
+    margin-top: 110px;
 }
-.ContactMe .Emailtitle,
-.ContactMe .Phonetitle,
-.ContactMe .Locationtitle{
-    color: #ffffff;
-    font-size: 19px;
-    font-weight: 500;
-    margin-left: 500px;
+.contactrow .icon svg {
+    font-size: 10px;
+    color: white;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin: 10px;
     margin-top: 10px;
+    margin-left: 120px;
 }
 
-.ContactMe .Email,
-.ContactMe .Phone,
-.ContactMe .Location{
+.contact-text .Emailtitle {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0%;
+}
+.contact-text .Phonetitle {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0%;
+}
+.contact-text .Locationtitle{
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0%;
+}
+
+.contact-text .Email{
+    color: #ca8484;
+    font-size: 16px;
     font-weight: 400;
-    margin-left: 500px;
-    margin-top: 6px;
+    margin: 0%;
+}
+.contact-text .Phone {
+    color: #ca8484;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0%;
+}
+.contact-text .Location{
+    color: #ca8484;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0%;
 }
 
 
