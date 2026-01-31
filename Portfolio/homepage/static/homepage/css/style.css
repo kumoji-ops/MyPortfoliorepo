@@ -532,9 +532,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 9px;
     overflow: visible;
-    margin-top: 110px;
+    margin-top: 15px;
 }
 .contactrow .icon svg {
     font-size: 10px;
@@ -542,47 +542,25 @@ body {
     width: 24px;
     height: 24px;
     flex-shrink: 0;
-    margin: 10px;
-    margin-top: 10px;
-    margin-left: 120px;
+    margin: 0;
 }
 
-.contact-text .Emailtitle {
+.contactrow .contact-text .Emailtitle,
+.contactrow .contact-text .Phonetitle,
+.contactrow .contact-text .Locationtitle {
     color: #ffffff;
     font-size: 17px;
     font-weight: 500;
     margin: 0%;
 }
-.contact-text .Phonetitle {
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 500;
-    margin: 0%;
-}
-.contact-text .Locationtitle{
-    color: #ffffff;
-    font-size: 17px;
-    font-weight: 500;
+.contact-text .Email,
+.contact-text .Phone,
+.contact-text .Location {
+    color: #ca8484;
+    font-size: 16px;
+    font-weight: 400;
     margin: 0%;
 }
 
-.contact-text .Email{
-    color: #ca8484;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0%;
-}
-.contact-text .Phone {
-    color: #ca8484;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0%;
-}
-.contact-text .Location{
-    color: #ca8484;
-    font-size: 16px;
-    font-weight: 400;
-    margin: 0%;
-}
 
 
